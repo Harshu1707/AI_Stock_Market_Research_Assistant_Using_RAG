@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+.env
+backend/.env
+backend/data/stocks.db
+backend/vectorstore/faiss_reports*
+backend/uploads/*
+!backend/uploads/.gitkeep
+frontend/node_modules
+frontend/dist
+__pycache__
+*.pyc
+.venv
